@@ -13,4 +13,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Table-Dump/mai
 ## Preview
 ![image](https://user-images.githubusercontent.com/76539058/146471258-e6f9ff8a-cf0d-40be-bcd5-d77d310d8346.png)
 
-![image](https://user-images.githubusercontent.com/76539058/146471067-3b385d03-8616-4ae1-9ed8-05e1e3b6952a.png)
+![image](https://user-images.githubusercontent.com/76539058/146471488-161312ab-d296-43ce-9543-2303a02faabe.png)
