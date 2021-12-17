@@ -83,5 +83,5 @@ return function(Table)
 		end
 	end)
 	
-	print("\n\n[[ EXUNYS TABLE DUMP ]]: ENDED @ "..tostring(os.date()).."\n\n")
+	print("\n\n[[ EXUNYS TABLE DUMP ]] ENDED @ "..tostring(os.date()).."\n\n")
 end
