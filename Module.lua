@@ -1,10 +1,13 @@
 return function(Table)
 	if not warn then warn = print end
 	
+	if not (type(Table) == "table" and #Table > 0) then return end
+	
 	print("\n\n[[ EXUNYS TABLE DUMP ]] @ "..tostring(os.date()).."\n")
 	
+	warn("\n"..string.rep("=", 25).." STACK: 1 "..string.rep("=", 25).."\n")
+	
 	table.foreach(Table, function(i, v)
-		warn("\n"..string.rep("=", 25).." STACK: 1 "..string.rep("=", 25).."\n")
 		print("Index: "..tostring(i), "Value: "..tostring(v))
 
 		if type(v) == "table" then
