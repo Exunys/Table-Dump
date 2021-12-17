@@ -3,7 +3,7 @@ return function(Table)
 	
 	if not (type(Table) == "table" and #Table > 0) then return end
 	
-	print("\n\n[[ EXUNYS TABLE DUMP ]] @ "..tostring(os.date()).."\n")
+	print("\n\n[[ EXUNYS TABLE DUMP ]] Started @ "..tostring(os.date()).."\n")
 	
 	warn("\n"..string.rep("=", 25).." STACK: 1 "..string.rep("=", 25).."\n")
 	
@@ -83,5 +83,5 @@ return function(Table)
 		end
 	end)
 	
-	print("\n\n[[ EXUNYS TABLE DUMP ]] ENDED @ "..tostring(os.date()).."\n\n")
+	print("\n\n[[ EXUNYS TABLE DUMP ]] Ended @ "..tostring(os.date()).."\n\n")
 end
